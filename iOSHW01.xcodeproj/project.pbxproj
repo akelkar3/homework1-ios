@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DB095572FB28D7A7434F5C6 /* Pods_iOSHW01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810C753CBEEE0D8B9EC62C0D /* Pods_iOSHW01.framework */; };
+		3025F6CF219036000065AA4E /* AppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025F6CE219036000065AA4E /* AppsTableViewController.swift */; };
 		609E424C218D209F0054FDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609E424B218D209F0054FDEE /* AppDelegate.swift */; };
 		609E424E218D209F0054FDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609E424D218D209F0054FDEE /* ViewController.swift */; };
 		609E4251218D209F0054FDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609E424F218D209F0054FDEE /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3025F6CE219036000065AA4E /* AppsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsTableViewController.swift; sourceTree = "<group>"; };
 		417A26FFD244451CC448640F /* Pods-iOSHW01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSHW01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSHW01/Pods-iOSHW01.debug.xcconfig"; sourceTree = "<group>"; };
 		609E4248218D209F0054FDEE /* iOSHW01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHW01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609E424B218D209F0054FDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				609E424B218D209F0054FDEE /* AppDelegate.swift */,
 				609E424D218D209F0054FDEE /* ViewController.swift */,
 				609E424F218D209F0054FDEE /* Main.storyboard */,
+				3025F6CE219036000065AA4E /* AppsTableViewController.swift */,
 				609E4252218D20A00054FDEE /* Assets.xcassets */,
 				609E4254218D20A00054FDEE /* LaunchScreen.storyboard */,
 				609E4257218D20A00054FDEE /* Info.plist */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				609E424E218D209F0054FDEE /* ViewController.swift in Sources */,
+				3025F6CF219036000065AA4E /* AppsTableViewController.swift in Sources */,
 				609E424C218D209F0054FDEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +357,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WN3YQ2PUY2;
 				INFOPLIST_FILE = iOSHW01/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.iOSHW01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -369,7 +376,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WN3YQ2PUY2;
 				INFOPLIST_FILE = iOSHW01/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.iOSHW01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

@@ -1,6 +1,6 @@
 # homework1-ios
-![Alt text](/img1.png?raw=true "Title")
-
-![Alt text](/img2.png?raw=true "Title")
-
-![Alt text](/img3.png?raw=true "Title")
+<p align="center">
+  <img src="/img1.png" width="150" title="hover text">
+  <img  src="/img2.png" width="150" alt="accessibility text">
+    <img  src="/img3.png" width="150" alt="accessibility text">
+</p>
